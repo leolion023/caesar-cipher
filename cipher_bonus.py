@@ -15,4 +15,6 @@ for char in sentence:
         index = (index + shift) % 26
         char = abc[index]
         new_sentece += char
+    else:
+        new_sentece += " "
 print(new_sentece)
